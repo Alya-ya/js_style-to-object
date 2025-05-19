@@ -12,7 +12,7 @@ function convertToObject(sourceString) {
     const clean = curr.trim();
 
     if (clean.includes(':')) {
-      const parts = clean.split(':');
+      const parts = clean.split(':', 2);
       const clean1 = parts[0].trim();
       const clean2 = parts[1].trim();
 
